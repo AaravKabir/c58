@@ -113,3 +113,7 @@ p {
     color: white;
     font-size: 20px;
 }
+.regimages {
+    width: 25% !important;
+    height: 25% !important;
+}
