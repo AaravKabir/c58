@@ -4,19 +4,28 @@
     <title>My Portofolio</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+        < link rel = "stylesheet"
+        href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" >
+            <
+            script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" >
+
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <section>
         <ul class="menu">
-            <li class="links"><a href="bio">About
+            <li class="links"><a href="#bio">About
                 </a>
+            </li>v
+            <li class="links"><a href="#myfavplays">My Favorite Players</a>
             </li>
-            <li class="links"><a href="myfavplays">My Favorite Players</a>
+            <li class="links"><a href="#work">My Work </a>
             </li>
-            <li class="links"><a href="work">My Work </a>
-            </li>
-            <li class="links"><a href="inspiration"> Inspiration</a> </li>
+            <li class="links"><a href="#inspiration"> Inspiration</a> </li>
             <li class="links">Contacts
             </li>
         </ul>
@@ -24,7 +33,6 @@
         <div>
             <h1> My Favorite Hobby <br><span id="name"> Playing Chess</span></h1>
         </div>
-    </section>
     <section id="bio">
         <div class="line"></div>
         <p>My favorite hobby is to play chess for many reasons. Firstly, it sharpens your mind and makes you think of strategies out of the box. You have to think a lot about every move or you end up losing. In addition, you get to play with other people and have fun with them. You can make more friends like this! Lastly, you don't go on a screen and you get time off electronics which we have too much of these days. "Life is nothing but a great game of chess, and every person we encounter is a piece on the board."
@@ -36,13 +44,41 @@
         <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/C5mrSzhtvYZ9631fCbD9vecwZHSsWee4Ly1zl2ZrtWx/embed?nosource"></iframe>
         <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/xK7xTRlfNyR7b__0Qo0QPzOSDwiKiaNYJ41JW_z2e9s/embed?nosource"></iframe>
     </section>
-    <section id="games">
-        <h1>Games</h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/playlab/MEobLpNR8cnyAJrCWY5bxJgwSQhKPBT_CIIOL1GDiSw" target="_blank"></a>
-        <img id="gameimage" src="dragonattack.png">
+    <div class="container">
+        <section id="games">
+            <h2>Click On The Games To Explore</h2>
+            <h5>These games are built in game lab, click on the game to play.</h5>
+            <div id="mycarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <a href="https://studio.code.org/projects/spritelab/HnUVUa7W5RRTJKxNTkWCT8SQZZw7-Woc-r1276WNxAM" target="_blank"><img src="Winne_Pooh.png"></a>
+                            <div class="carousel-content">
+                                <p>Winnie_Pooh</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center> <a href="https://studio.code.org/projects/spritelab/9B4T2VVyymhzxjgkkFRKj_zbq607BEqh_hztQcrtpcI" target="_blank"><img src="Car_game.png"></a>
+                            <div class="carousel-content">
+                                <p>Car_Game</p>
+                            </div>
+                            <a href="https://studio.code.org/projects/playlab/MEobLpNR8cnyAJrCWY5bxJgwSQhKPBT_CIIOL1GDiSw" target="_blank"></a>
+                            <img id="gameimage" src="dragonattack.png">
+
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span> </a>
+            </div>
+
+
 
     </section>
+    </div>
     <section id="myfavplays">
         <h1>MY FAVORITE PLAYERS</h1>
         <div class="line"></div>
@@ -58,12 +94,12 @@
         <h1>INSPIRATION</h1>
         <div class="line"></div>
         <iframe width="352" height="620" style="border: 0px;" src="https://thechessworld.com/articles/general-information/10-great-quotes-to-inspire-you-to-be-a-better-chess-player/"></iframe>
-    
+
     </section>
     <section id="contact">
         <h1>CONTACTS</h1>
         <p>Email: aarav.e.maini@gmail.com<br>
-        Address: 8924, 212th street, Queens Village, New York, 11427</p>
+            Address: 8924, 212th street, Queens Village, New York, 11427</p>
     </section>
 </body>
 
