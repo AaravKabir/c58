@@ -56,7 +56,6 @@ p {
     font-family: sans-serif;
     position: fixed;
     top: 0px;
-    /*right: 30px;*/
     z-index: 10;
     cursor: pointer;
     background:firebrick;
@@ -66,12 +65,9 @@ p {
 }
 
 .links {
-    /*float: left;*/
     color: deepskyblue;
-    /*padding-top: 5px;*/
     padding-left: 35px;
     padding-right: 25px;
-    /*padding-bottom: 5px;*/
     font-family: fantasy;
     font-size: 30px;
     display: inline;
@@ -123,4 +119,5 @@ p {
 #email {
     text-decoration: none !important;
     color: darkblue !important;
+    underline:none !important;
 }
